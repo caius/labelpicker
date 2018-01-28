@@ -11,16 +11,18 @@ import UIKit
 class ViewController: UIViewController {
 
     @IBOutlet var label: DaLabel!
+    var pickerView: UIPickerView!
+    let pickerController = PickerController()
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        let pickerView = UIPickerView()
+        pickerView.delegate = pickerController
+        pickerView.dataSource = pickerController
+        label.inputView = pickerView
+        NSLog("label has view %@", label.inputView!)
     }
-
 
 }
