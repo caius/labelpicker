@@ -13,6 +13,7 @@
 		09239840201E48AC0012DA53 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0923983F201E48AC0012DA53 /* Assets.xcassets */; };
 		09239843201E48AC0012DA53 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 09239841201E48AC0012DA53 /* LaunchScreen.storyboard */; };
 		0923984E201E48AC0012DA53 /* labelpickerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923984D201E48AC0012DA53 /* labelpickerTests.swift */; };
+		0923985C201E4E3E0012DA53 /* DaLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0923985B201E4E3E0012DA53 /* DaLabel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		09239849201E48AC0012DA53 /* labelpickerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = labelpickerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0923984D201E48AC0012DA53 /* labelpickerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = labelpickerTests.swift; sourceTree = "<group>"; };
 		0923984F201E48AC0012DA53 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0923985B201E4E3E0012DA53 /* DaLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaLabel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 			children = (
 				09239838201E48AC0012DA53 /* AppDelegate.swift */,
 				0923983A201E48AC0012DA53 /* ViewController.swift */,
+				0923985B201E4E3E0012DA53 /* DaLabel.swift */,
 				0923983C201E48AC0012DA53 /* Main.storyboard */,
 				0923983F201E48AC0012DA53 /* Assets.xcassets */,
 				09239841201E48AC0012DA53 /* LaunchScreen.storyboard */,
@@ -200,6 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0923983B201E48AC0012DA53 /* ViewController.swift in Sources */,
+				0923985C201E4E3E0012DA53 /* DaLabel.swift in Sources */,
 				09239839201E48AC0012DA53 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
