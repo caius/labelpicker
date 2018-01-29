@@ -13,6 +13,12 @@ The basic gist is:
 * Listen for `touchesEnded(_:with:)` & call `becomeFirstResponder` when it receives a tap.
     * As we want to show/hide then we check if we're already first responder and resign if we are in this case
 
+## Screen recording?
+
+Pretty boring, but sure, why not.
+
+![](labelpicker-recording.gif)
+
 ## How did you figure this out?!
 
 Little bit of reading the docs, little bit of googling and a lot of time trying various things. Understanding first responder is essential, and the magic key that I was missing? The default first responder for `UIView` presenting whatever is in `UIView.inputView`.
